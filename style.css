@@ -14,19 +14,27 @@ body {
     padding-top: 100px; 
 }
 
-.about-container img {
-    height: 200px;                          
+/* new wave alt logo */
+.about-container > img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;                          
 }
 
-
-.about-container h3{
-    text-align: center;                     
-    color: white; 
-    font-size: 16px;                         
-    font-family: 'Oswald', sans-serif; 
-    max-width: 600px;                      
-    padding: 2px;                                             
+/* coming soon image */
+.about-container h3 {
+  text-align: center;
+  margin: 4px 0;            
+  padding: 0;
 }
+
+.about-container h3 img {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+       
+}
+
 
 .about-container p {
   text-align: center;
